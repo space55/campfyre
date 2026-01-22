@@ -1,5 +1,5 @@
 ---
-title: About Goldydocs
+title: About Campfyre
 linkTitle: About
 menu: { main: { weight: 10 } }
 ---
