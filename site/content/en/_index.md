@@ -1,5 +1,5 @@
 ---
-title: Goldydocs
+title: Campfyre
 ---
 
 <style>
@@ -8,62 +8,52 @@ title: Goldydocs
   }
 </style>
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
+{{< blocks/cover title="A portable, ruggedized network-in-a-box" image_anchor="top" height="full" >}}
 
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+<div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kp6JwRd7_2c?si=8U0waY4wramVZBd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/introduction">
+  Get Started
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
-  Download <i class="fab fa-github ms-2 "></i>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="/discord">
+  Join the Community <i class="fab fa-discord ms-2 "></i>
 </a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
+<p class="lead mt-5">Backup internet for whenever you need it</p>
 
 {{< blocks/link-down color="info" >}} {{< /blocks/cover >}}
 
 {{% blocks/lead color="primary" %}}
 
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
-
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+After the Verizon outage in Jan of 2026, I wanted a backup internet connection
+that I could put in a car or take with me if I needed. So I built Campfyre - a
+battery-powered Starlink, Raspberry Pi, and network switch, in a water-resistant
+case.
 
 {{% /blocks/lead %}}
 
-{{% blocks/section color="white" type="row" %}}
+{{% blocks/section color="black" type="row" %}}
 
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
+{{% blocks/feature icon="fa-hill-rockslide" title="Ruggedized" %}}
 
-The Goldydocs UI now shows chair size metrics by default.
-
-Please follow this space for updates!
-
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
-
-We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
+Campfyre is built into a rock-solid and water-resistant carrying case, so you
+can take it into the field, wherever you like.
 
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-x-twitter" title="Follow us on X!" url="https://x.com/docsydocs" %}}
+{{% blocks/feature icon="fab fa-github" title="Open Source" url="https://github.com/space55/campfyre" %}}
 
-For announcement of latest features etc.
+Everything is open-source, including CAD, printable files, wiring diagrams, and
+component listing. Found a better way to do something? Suggest a change!
 
 {{% /blocks/feature %}}
 
-{{% /blocks/section %}}
+{{% blocks/feature icon="fa-solid fa-earth-americas" title="Works anywhere" %}}
 
-{{% blocks/section type="row text-center" %}}
+This works anywhere on Earth you can use Starlink. On a boat in the open ocean,
+in a car driving through the wilderness, or on the roof of a building in a city.
 
-# This is the second section
-
-{{% /blocks/section %}}
-
-{{% blocks/section type="row text-center" %}}
-
-# This is the another section with center alignment
+{{% /blocks/feature %}}
 
 {{% /blocks/section %}}

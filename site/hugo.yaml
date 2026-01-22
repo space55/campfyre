@@ -1,5 +1,5 @@
-baseURL: https://example.docsy.dev
-title: Goldydocs
+baseURL: https://campfyre.org
+title: Campfyre
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
@@ -46,27 +46,10 @@ imaging:
 languages:
   en:
     languageName: English
-    title: Goldydocs
+    title: Campfyre
     params:
-      description: A Docsy example site
+      description: An open-source, portable, ruggedized network-in-a-box
   # cSpell:disable
-  'no':
-    languageName: Norsk
-    contentDir: content/no
-    title: Gulldoks
-    params:
-      description: Docsy er operativsystem for skyen
-      time_format_default: 02.01.2006
-      time_format_blog: 02.01.2006
-  fa:
-    languageDirection: rtl
-    languageName: 'فارسی (Persian)'
-    contentDir: content/fa
-    title: 'اسناد گلدی'
-    params:
-      description: 'یک نمونه برای پوسته داکسی'
-      time_format_default: 2006.01.02
-      time_format_blog: 2006.01.02
   # cSpell:enable
 
 markup:
@@ -99,7 +82,7 @@ params:
     # set taxonomyPageHeader = [] to hide taxonomies on the page headers
     taxonomyPageHeader: [tags, categories]
 
-  privacy_policy: https://policies.google.com/privacy
+  #privacy_policy: https://policies.google.com/privacy
 
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
@@ -120,13 +103,10 @@ params:
 
   # A link to latest version of the docs. Used in the "version-banner" partial to
   # point people to the main doc site.
-  url_latest_version: https://example.com
+  url_latest_version: https://campfyre.org
 
   # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-  github_repo: https://github.com/google/docsy-example
-
-  # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-  github_project_repo: https://github.com/google/docsy
+  github_repo: https://github.com/space55/campfyre
 
   # Specify a value here if your content directory is not in your repo's root directory
   # github_subdir: ""
@@ -136,7 +116,7 @@ params:
   github_branch: main
 
   # Google Custom Search Engine ID. Remove or comment out to disable search.
-  gcs_engine_id: d72aa9b2712488cc3
+  #gcs_engine_id: d72aa9b2712488cc3
 
   # Enable Lunr.js offline search
   offlineSearch: false
@@ -146,8 +126,8 @@ params:
 
   copyright:
     authors:
-      Docsy Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-    from_year: 2018
+      Campfyre Developers | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+    from_year: 2026
 
   # User interface configuration
   ui:
@@ -173,11 +153,11 @@ params:
       # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
       'yes': >-
         Glad to hear it! Please <a
-        href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we
+        href="https://github.com/space55/campfyre/issues/new">tell us how we
         can improve</a>.
       'no': >-
         Sorry to hear that. Please <a
-        href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we
+        href="https://github.com/space55/campfyre/issues/new">tell us how we
         can improve</a>.
 
     # Adds a reading time to the top of each doc.
@@ -187,34 +167,16 @@ params:
       enable: false
 
   links:
-    # End user relevant links. These will show up on left side of footer and in the community page if you have one.
-    user:
-      - name: User mailing list
-        url: https://example.org/mail
-        icon: fa fa-envelope
-        desc: Discussion and help from your fellow users
-      - name: X
-        url: https://example.org/x
-        icon: fab fa-x-twitter
-        desc: Follow us on X to get the latest news!
-      - name: Stack Overflow
-        url: https://example.org/stack
-        icon: fab fa-stack-overflow
-        desc: Practical questions and curated answers
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
       - name: GitHub
-        url: https://github.com/google/docsy
+        url: https://github.com/space55/campfyre
         icon: fab fa-github
         desc: Development takes place here!
-      - name: Slack
-        url: https://example.org/slack
-        icon: fab fa-slack
-        desc: Chat with other project developers
-      - name: Developer mailing list
-        url: https://example.org/mail
-        icon: fa fa-envelope
-        desc: Discuss development issues around the project
+      - name: Discord
+        url: https://campfyre.org/discord
+        icon: fab fa-discord
+        desc: Chat with the developers and community
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:

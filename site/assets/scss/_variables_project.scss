@@ -2,3 +2,10 @@
 Projects can override this file. For details, see:
 https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 */
+
+$primary: #ff6d33;
+$info: #ff6d33;
+
+// Disable gradients and shadows
+$enable-gradients: false;
+$enable-shadows: false;
