@@ -12,6 +12,12 @@ title: Campfyre
     overflow: hidden;
   }
   
+  .td-cover-block h1,
+  .td-cover-block .lead,
+  .td-cover-block p {
+    font-family: 'PixelDigivolve', monospace;
+  }
+  
   #smoke-canvas {
     position: absolute;
     top: 0;

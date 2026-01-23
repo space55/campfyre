@@ -8,6 +8,26 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 @import 'td/code-dark';
 @import 'td/gcs-search-dark';
 
+// PixelDigivolve font
+@font-face {
+    font-family: 'PixelDigivolve';
+    src: url('/fonts/PixelDigivolve-mOm9.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PixelDigivolve';
+    src: url('/fonts/PixelDigivolveItalic-dV8R.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+// Navbar brand text
+.navbar-brand {
+    font-family: 'PixelDigivolve', monospace;
+}
+
 // Responsive YouTube embed
 .video-embed {
     position: relative;
