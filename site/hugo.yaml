@@ -174,7 +174,7 @@ params:
         icon: fab fa-github
         desc: Development takes place here!
       - name: Discord
-        url: https://campfyre.org/discord
+        url: https://discord.gg/4y4aQuCQWj
         icon: fab fa-discord
         desc: Chat with the developers and community
 

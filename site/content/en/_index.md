@@ -17,7 +17,7 @@ title: Campfyre
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/introduction">
   Get Started
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="/discord">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://discord.gg/4y4aQuCQWj">
   Join the Community <i class="fab fa-discord ms-2 "></i>
 </a>
 <p class="lead mt-5">Backup internet for whenever you need it</p>
