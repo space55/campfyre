@@ -7,3 +7,40 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 @import 'td/color-adjustments-dark';
 @import 'td/code-dark';
 @import 'td/gcs-search-dark';
+
+// Responsive YouTube embed
+.video-embed {
+    position: relative;
+    width: 100%;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 16 / 9;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+
+    @media (max-width: 600px) {
+        width: calc(100vw - 2rem);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+// Prevent cover block content from overflowing on mobile
+.td-cover-block {
+    overflow-x: hidden;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
