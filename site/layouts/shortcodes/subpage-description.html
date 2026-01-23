@@ -1,0 +1,14 @@
+{{- $path := .Get 0 | default (.Get "path") -}}
+{{- if not $path -}}
+{{- warnf "shortcode subpage-description: missing page path" -}}
+{{- else -}}
+{{- $page := .Site.GetPage $path -}}
+{{- if not $page -}}
+{{- warnf "shortcode subpage-description: page not found for path %q" $path -}}
+{{- else -}}
+{{- $desc := $page.Params.description | default $page.Description -}}
+{{- with $desc -}}
+{{- . | markdownify -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}

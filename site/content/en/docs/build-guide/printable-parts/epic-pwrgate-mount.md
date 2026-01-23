@@ -1,9 +1,8 @@
 ---
-title: Battery Holder
+title: Epic PWRGate Mount
 description: >
-  This is a predesigned holder for 150x65mm batteries. These are common LiFePO4
-  batteries found in uninterruptable power supplies, and can be ordered from the
-  supplier listed in the components page.
+  The Epic PWRGate is the power path controller which selects the power source
+  to use for supplying the rest of Campfyre.
 ---
 
 <div id="model-viewer" style="width: 100%; height: 480px; background: #fff; border-radius: 12px;"></div>
@@ -19,6 +18,6 @@ description: >
 <script type="module">
   import { init3DModelViewer } from "/js/stlviewer.js";
   init3DModelViewer({
-    stlUrl: "https://raw.githubusercontent.com/space55/campfyre/refs/heads/main/cad/150x65mm%20Battery%20Holder.stl"
+    stlUrl: "https://raw.githubusercontent.com/space55/campfyre/refs/heads/main/cad/Epic%20PWRGate%20Mount.stl"
   });
 </script>

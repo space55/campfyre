@@ -1,9 +1,9 @@
 ---
-title: Battery Holder
+title: DCDC-8A Mount
 description: >
-  This is a predesigned holder for 150x65mm batteries. These are common LiFePO4
-  batteries found in uninterruptable power supplies, and can be ordered from the
-  supplier listed in the components page.
+  The DCDC-8A Mount is the mount that holds the DCDC-8A in the case, allowing
+  for it to be removed by unscrewing it rather than having it permanently
+  affixed directly into the case.
 ---
 
 <div id="model-viewer" style="width: 100%; height: 480px; background: #fff; border-radius: 12px;"></div>
@@ -19,6 +19,6 @@ description: >
 <script type="module">
   import { init3DModelViewer } from "/js/stlviewer.js";
   init3DModelViewer({
-    stlUrl: "https://raw.githubusercontent.com/space55/campfyre/refs/heads/main/cad/150x65mm%20Battery%20Holder.stl"
+    stlUrl: "https://raw.githubusercontent.com/space55/campfyre/refs/heads/main/cad/DCDC-8A%20Mount.stl"
   });
 </script>

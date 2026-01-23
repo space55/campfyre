@@ -1,9 +1,8 @@
 ---
-title: Battery Holder
+title: Starlink Mount Corner A
 description: >
-  This is a predesigned holder for 150x65mm batteries. These are common LiFePO4
-  batteries found in uninterruptable power supplies, and can be ordered from the
-  supplier listed in the components page.
+  This is what screws into the Starlink Mount to hold the Starlink Mini in
+  place. Print two of these for Campfyre.
 ---
 
 <div id="model-viewer" style="width: 100%; height: 480px; background: #fff; border-radius: 12px;"></div>
@@ -19,6 +18,6 @@ description: >
 <script type="module">
   import { init3DModelViewer } from "/js/stlviewer.js";
   init3DModelViewer({
-    stlUrl: "https://raw.githubusercontent.com/space55/campfyre/refs/heads/main/cad/150x65mm%20Battery%20Holder.stl"
+    stlUrl: "https://raw.githubusercontent.com/space55/campfyre/refs/heads/main/cad/Starlink%20Mount%20Corner%20A.stl"
   });
 </script>
