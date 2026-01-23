@@ -36,7 +36,7 @@ title: Campfyre
   }
 </style>
 
-{{< blocks/cover title="A portable, ruggedized network-in-a-box" image_anchor="top" height="full" >}}
+{{< blocks/cover title="A portable, ruggedized backup internet box" image_anchor="top" height="full" >}}
 
 <canvas id="smoke-canvas"></canvas>
 
