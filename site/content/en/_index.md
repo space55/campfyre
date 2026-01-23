@@ -14,7 +14,7 @@ title: Campfyre
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kp6JwRd7_2c?si=8U0waY4wramVZBd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/introduction">
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs">
   Get Started
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://discord.gg/4y4aQuCQWj">

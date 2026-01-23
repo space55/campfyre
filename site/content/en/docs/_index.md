@@ -4,24 +4,27 @@ linkTitle: Docs
 menu: { main: { weight: 20 } }
 ---
 
+Welcome to the Campfyre docs. Campfyre is a rugged, battery-powered
+network-in-a-box designed to keep you online when primary internet access fails.
+It can run off-grid with Starlink, provide Ethernet, run a Raspberry Pi, and
+charge from a vehicle's 12V system.
 
+## What Campfyre includes
 
+- Starlink Mini for internet access and routing
+- Ethernet switch for local connectivity
+- Shared power bus (VBUS) feeding the switch, Starlink, and Raspberry Pi
+- Power path controller that prioritizes external power while charging the
+  battery
+- 12V regulation with a secondary 5V supply for the Raspberry Pi
+- Waterproof, radio-transparent case for durability and signal quality
 
-This section is where the user documentation for your project lives - all the
-information your users need to understand and successfully use your project.
+## Why Campfyre
 
-For large documentation sets we recommend adding content under the headings in
-this section, though if some or all of them don't apply to your project feel
-free to remove them or add your own. You can see an example of a smaller Docsy
-documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which
-lives in the
-[Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if
-you'd like to copy its docs section.
+Campfyre is built for travel and off-grid use, providing an internet connection
+wherever you need it. It provides reliable connectivity in a compact, rugged
+form factor and is easy to assemble with basic tools.
 
-Other content such as marketing material, case studies, and community updates
-should live in the [About](/about/) and [Community](/community/) pages.
+## Get started
 
-Find out how to use the Docsy theme in the
-[Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to
-organize your documentation (and how we organized this site) in
-[Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
+Start with the build guide [here](/docs/build-guide)
