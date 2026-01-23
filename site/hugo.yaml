@@ -126,8 +126,7 @@ params:
 
   copyright:
     authors:
-      Campfyre Developers | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-    from_year: 2026
+      Campfyre Developers | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)
 
   # User interface configuration
   ui:
