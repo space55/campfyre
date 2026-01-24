@@ -36,7 +36,7 @@ title: Campfyre
   }
 </style>
 
-{{< blocks/cover title="A portable, ruggedized backup internet box" image_anchor="top" height="full" >}}
+{{< blocks/cover title="A portable, durable backup internet box" image_anchor="top" height="full" >}}
 
 <canvas id="smoke-canvas"></canvas>
 
@@ -187,7 +187,7 @@ case.
 
 {{% blocks/section color="black" type="row" %}}
 
-{{% blocks/feature icon="fa-hill-rockslide" title="Ruggedized" %}}
+{{% blocks/feature icon="fa-hill-rockslide" title="Durable" %}}
 
 Campfyre is built into a rock-solid and water-resistant carrying case, so you
 can take it into the field, wherever you like.

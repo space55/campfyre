@@ -6,7 +6,7 @@ description: >
 weight: 1
 ---
 
-# Tools
+## Tools
 
 To get started building your own Campfyre, you'll need the following tools.
 
@@ -20,7 +20,7 @@ To get started building your own Campfyre, you'll need the following tools.
 1. 120-160 grit sand paper
 1. Scissors
 
-# Consumables
+## Consumables
 
 A few consumables will be needed to build Campfyre.
 
@@ -29,9 +29,10 @@ A few consumables will be needed to build Campfyre.
 1. M3 heat-set inserts
 1. M4 screws (assorted)
 1. M4 heat-set inserts
-1. 3M LSE VHB Tape
+1. 3M Low Surface Energy VHB Tape (3M LSE-060WF)
 1. Ethernet cables
 1. 5.5x2.5mm DC plug
+1. M3 and M5 yellow ring terminals for 12 AWG wire
 
 {{% alert title="WARNING" %}} Purchasing specifically **3M LSE VHB** tape is
 _absolutely essential_. No, foam mounting tape will not work. You _must_
@@ -39,37 +40,37 @@ purchase [exactly this](https://www.mcmaster.com/76675A52/) tape for Campfyre to
 work. It's possible you will use an entire 15ft roll of 1/2-in tape to build
 Campfyre. {{% /alert %}}
 
-# Components
+## Components
 
 Components are discussed further on their
 [dedicated page](/docs/build-guide/components/).
 
-# Printable Parts
+## Printable Parts
 
-## [150x65mm Battery Holder](/docs/build-guide/printable-parts/battery-holder)
+### [150x65mm Battery Holder](/docs/build-guide/printable-parts/battery-holder)
 
 {{< subpage-description "/docs/build-guide/printable-parts/battery-holder" >}}
 
-## [DCDC-8A Mount](/docs/build-guide/printable-parts/dcdc-8a-mount)
+### [DCDC-8A Mount](/docs/build-guide/printable-parts/dcdc-8a-mount)
 
 {{< subpage-description "/docs/build-guide/printable-parts/dcdc-8a-mount" >}}
 
-## [Epic PWRGate Mount](/docs/build-guide/printable-parts/epic-pwrgate-mount)
+### [Epic PWRGate Mount](/docs/build-guide/printable-parts/epic-pwrgate-mount)
 
 {{< subpage-description "/docs/build-guide/printable-parts/epic-pwrgate-mount" >}}
 
-## [Starlink Mount Corner A](/docs/build-guide/printable-parts/starlink-mount-corner-a)
+### [Starlink Mount Corner A](/docs/build-guide/printable-parts/starlink-mount-corner-a)
 
 {{< subpage-description "/docs/build-guide/printable-parts/starlink-mount-corner-a" >}}
 
-## [Starlink Mount Corner B](/docs/build-guide/printable-parts/starlink-mount-corner-b)
+### [Starlink Mount Corner B](/docs/build-guide/printable-parts/starlink-mount-corner-b)
 
 {{< subpage-description "/docs/build-guide/printable-parts/starlink-mount-corner-b" >}}
 
-## [Starlink Mount Half](/docs/build-guide/printable-parts/starlink-mount-half)
+### [Starlink Mount Half](/docs/build-guide/printable-parts/starlink-mount-half)
 
 {{< subpage-description "/docs/build-guide/printable-parts/starlink-mount-half" >}}
 
-## [Voltmeter Mount](/docs/build-guide/printable-parts/voltmeter-mount)
+### [Voltmeter Mount](/docs/build-guide/printable-parts/voltmeter-mount)
 
 {{< subpage-description "/docs/build-guide/printable-parts/voltmeter-mount" >}}

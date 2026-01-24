@@ -4,10 +4,10 @@ linkTitle: Docs
 menu: { main: { weight: 20 } }
 ---
 
-Welcome to the Campfyre docs. Campfyre is a rugged, battery-powered
-network-in-a-box designed to keep you online when primary internet access fails.
-It can run off-grid with Starlink, provide Ethernet, run a Raspberry Pi, and
-charge from a vehicle's 12V system.
+Welcome to the Campfyre docs. Campfyre is a rugged, battery-powered backup
+internet box designed to keep you online when primary internet access fails. It
+can run off-grid with Starlink, provide connectivity over Ethernet, run a
+Raspberry Pi, and charge from a vehicle's 12V system.
 
 ## What Campfyre includes
 
