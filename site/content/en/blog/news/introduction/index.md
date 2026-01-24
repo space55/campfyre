@@ -17,7 +17,7 @@ need it most. Campfyre can also be charged from a car's 12V system, and is
 sealed to prevent water damage. It's easy to build and requires only simple
 tools to assemble. So how does it work? Let's get into it.
 
-![Network architecture for Campfyre](network.png)
+![Network architecture for Campfyre](/img/network.png)
 
 The main feature of Campfyre is centered around a Starlink Mini. The Starlink
 Mini hosts a WiFi hotspot and has an Ethernet port, which is then connected to a
@@ -27,7 +27,7 @@ Ethernet jack on Campfyre. In theory, an entire building could receive its
 internet access through Campfyre (though speeds would be limited by how fast
 Starlink can transmit and receive data).
 
-![Power diagram for Campfyre](main-architecture.png)
+![Power diagram for Campfyre](/img/main-architecture.png)
 
 Next, let's talk about how it's powered. Campfyre has two primary input
 sources - external DC, and the internal LiFePO4 battery. It then has a shared
@@ -36,7 +36,7 @@ It feeds the Raspberry Pi (via a 5V power supply), the Starlink dish, and the
 network switch. Campfyre can run for approximately two hours under heavy usage,
 or up to four and a half hours maximum.
 
-![Power path diagram for Campfyre](power-path.png)
+![Power path diagram for Campfyre](/img/power-path.png)
 
 To generate VBUS, external power and the battery connect to what is called a
 power path controller that selects which input to use to supply the downstream
