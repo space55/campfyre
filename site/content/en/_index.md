@@ -178,10 +178,10 @@ title: Campfyre
 
 {{% blocks/lead color="primary" %}}
 
-After the Verizon outage in Jan of 2026, I wanted a backup internet connection
-that I could put in a car or take with me if I needed. So I built Campfyre - a
-battery-powered Starlink, Raspberry Pi, and network switch, in a water-resistant
-case.
+After the Verizon outage in January of 2026, I wanted a backup internet
+connection that I could put in a car or take with me if I needed. So I built
+Campfyre - a battery-powered Starlink, Raspberry Pi, and network switch, in a
+water-resistant case.
 
 {{% /blocks/lead %}}
 
