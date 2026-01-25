@@ -1,5 +1,5 @@
 baseURL: https://campfyre.org
-title: Campfyre - The open-source, portable, durable backup internet box
+title: Campfyre
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
@@ -46,7 +46,7 @@ imaging:
 languages:
   en:
     languageName: English
-    title: Campfyre - The open-source, portable, durable backup internet box
+    title: Campfyre
     params:
       description: Campfyre is an open-source project to create a portable, durable device that provides off-grid internet access.
   # cSpell:disable
