@@ -24,7 +24,7 @@ external ethernet jack.
 
 Campfyre receives its power from an internal battery and an external 12V supply.
 
-![Power diagram for Campfyre](/img/main-architecture.png)
+![Power diagram for Campfyre](/img/power.png)
 
 ### Components
 
@@ -58,7 +58,7 @@ VBUS is generated with a power path controller, switching automatically between
 the two input sources (VIN and the battery). See its
 [components](components/#power-path-controller) page for more details.
 
-![VBUS for Campfyre](/img/power-path.png)
+![VBUS for Campfyre](/img/vbus.png)
 
 {{% alert title="WARNING" %}} Just because no circuit protection components are
 shown in the above diagram doesn't mean they don't exist! Make sure to properly
