@@ -19,7 +19,6 @@ Visit the project website at **https://campfyre.org**.
 
 We welcome contributions. Please read the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md), which include:
 
-- Signing the Contributor License Agreement (CLA)
 - Submitting changes via GitHub pull requests
 - Following the project's community guidelines
 
