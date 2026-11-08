@@ -67,6 +67,8 @@ terminals if applicable. Then, attach the wires according to the diagrams.
 first - this way, if you cut a wire too short, it can be reused later on a
 shorter wire run. {{% /alert %}}
 
+![Wiring diagram for Campfyre](/img/wires.png)
+
 ## Step 6: Test continuity
 
 Ensure that all circuit breakers are off, then test continuity with a multimeter
