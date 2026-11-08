@@ -19,6 +19,7 @@ To get started building your own Campfyre, you'll need the following tools.
 1. Lighter/heat source (for heat shrink tubing)
 1. 120-160 grit sand paper
 1. Scissors
+1. Drill bits (24.5mm, 20.5mm, 4mm, 3mm)
 
 ## Consumables
 
